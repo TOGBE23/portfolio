@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projets - Victoire Rose TOGBE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Victoire<span>Rose</span></a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-btn">Accueil</a></li>
+                <li><a href="about.html" class="nav-btn">À propos</a></li>
+                <li><a href="skills.html" class="nav-btn">Compétences</a></li>
+                <li><a href="project.html" class="nav-btn active">Projets</a></li>
+                <li><a href="contact.html" class="nav-btn">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Projets -->
+    <section class="projects-page">
+        <div class="container">
+            <h1 class="page-title">Mes Projets</h1>
+            <p class="page-subtitle">Découvrez une sélection de mes réalisations dans le domaine du développement web.</p>
+
+            <!-- Filtres par catégorie -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="frontend">Frontend</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            </div>
+
+            <!-- Grille de projets -->
+            <div class="projects-grid-page">
+                <!-- Projet 1 : Boutique en ligne -->
+                <div class="project-card-page" data-category="fullstack ecommerce">
+                    <div class="project-image-page">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Boutique en ligne">
+                        <div class="project-overlay">
+                            <a href="#" class="view-project">Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="project-content-page">
+                        <h3 class="project-title-page">Boutique en ligne</h3>
+                        <p class="project-description-page">Site e-commerce complet avec panier, authentification utilisateur et système de paiement sécurisé. Interface responsive et intuitive.</p>
+                        <div class="project-tags-page">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Fonctionnalités :</h4>
+                            <ul>
+                                <li>Panier d'achat</li>
+                                <li>Paiement sécurisé</li>
+                                <li>Gestion des stocks</li>
+                                <li>Backend administrateur</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary project-link-page">
+                            <i class="fas fa-external-link-alt"></i> Voir le projet
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet 2 : Gestion de crédit -->
+                <div class="project-card-page" data-category="fullstack">
+                    <div class="project-image-page">
+                        <img src="img/crédit.png" alt="Gestion de crédit">
+                        <div class="project-overlay">
+                            <a href="https://finance-five-zeta.vercel.app/" class="view-project">Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="project-content-page">
+                        <h3 class="project-title-page">Application de Gestion de Crédit</h3>
+                        <p class="project-description-page">Plateforme web pour la gestion des prêts financiers avec calcul automatique des intérêts et génération de rapports.</p>
+                        <div class="project-tags-page">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                           
+                            
+                        </div>
+                        <div class="project-features">
+                            <h4>Fonctionnalités :</h4>
+                            <ul>
+                                <li>Calcul automatique des intérêts</li>
+                                <li>Gestion des clients</li>
+                               
+                            </ul>
+                        </div>
+                        <a href="https://finance-five-zeta.vercel.app/" class="btn btn-primary project-link-page">
+                            <i class="fas fa-external-link-alt"></i> Voir le projet
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet 3 : Gestion immobilière -->
+                <div class="project-card-page" data-category="fullstack">
+                    <div class="project-image-page">
+                        <img src="img/gestimmo.PNG" alt="Gestion immobilière">
+                        <div class="project-overlay">
+                            <a href="#" class="view-project">Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="project-content-page">
+                        <h3 class="project-title-page">Plateforme Immobilière</h3>
+                        <p class="project-description-page">Application web pour l'achat, la location et la gestion de biens immobiliers avec recherche avancée et galerie d'images.</p>
+                        <div class="project-tags-page">
+                            <span class="tag">PHP</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Fonctionnalités :</h4>
+                            <ul>
+                                <li>Recherche avancée</li>
+                                <li>Galerie d'images</li>
+                                <li>Messagerie interne</li>
+                                <li>Gestion des rendez-vous</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary project-link-page">
+                            <i class="fas fa-external-link-alt"></i> Voir le projet
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Projet 4 : Tableau de bord analytique -->
+                <!-- <div class="project-card-page" data-category="frontend">
+                    <div class="project-image-page">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Tableau de bord analytique">
+                        <div class="project-overlay">
+                            <a href="#" class="view-project">Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="project-content-page">
+                        <h3 class="project-title-page">Tableau de Bord Analytique</h3>
+                        <p class="project-description-page">Visualisation de données avec graphiques interactifs et export de rapports personnalisés pour l'analyse de performance.</p>
+                        <div class="project-tags-page">
+                            <span class="tag">React</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Chart.js</span>
+                            <span class="tag">CSS3</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Fonctionnalités :</h4>
+                            <ul>
+                                <li>Graphiques interactifs</li>
+                                <li>Filtres dynamiques</li>
+                                <li>Export PDF/Excel</li>
+                                <li>Dashboard personnalisable</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary project-link-page">
+                            <i class="fas fa-external-link-alt"></i> Voir le projet
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- Projet 5 : Portfolio Responsive -->
+                <!-- <div class="project-card-page" data-category="frontend">
+                    <div class="project-image-page">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Portfolio Responsive">
+                        <div class="project-overlay">
+                            <a href="#" class="view-project">Voir le projet</a>
+                        </div>
+                    </div>
+                    <div class="project-content-page">
+                        <h3 class="project-title-page">Portfolio Responsive</h3>
+                        <p class="project-description-page">Site portfolio moderne et responsive avec animations CSS et design élégant pour présenter des travaux créatifs.</p>
+                        <div class="project-tags-page">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">GSAP</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Fonctionnalités :</h4>
+                            <ul>
+                                <li>Design responsive</li>
+                                <li>Animations CSS/JS</li>
+                                <li>Lightbox galerie</li>
+                                <li>Formulaire de contact</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary project-link-page">
+                            <i class="fas fa-external-link-alt"></i> Voir le projet
+                        </a>
+                    </div>
+                </div> -->
+
+                <!-- Projet 6 : Blog Personnel -->
+                <div class="project-card-page" data-category="fullstack">
+                    <div class="project-image-page">
+                        <img src="img/Capture.PNG" alt="Blog Personnel">
+                        <div class="project-overlay">
+                            <a href="#" class="view-project">En cours.....</a>
+                        </div>
+                    </div>
+                    <div class="project-content-page">
+                        <h3 class="project-title-page">Blog Personnel avec CMS</h3>
+                        <p class="project-description-page">Plateforme qui simplifie votre quotidien culinaire : partagez vos recettes, générez vos listes de courses et découvrez de nouvelles inspirations.</p>
+                        <div class="project-tags-page">
+                            <span class="tag">React</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">SQLite</span>
+                            <span class="tag">talwindCSS</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Fonctionnalités :</h4>
+                            <ul>
+                                <li>Ajouter des recettes </li>
+                                <li>Gestion des commentaires</li>
+                                <li>Système de tags</li>
+                                <li>Recherche intégrée</li>
+                            </ul>
+                        </div>
+                        <a href="#" class="btn btn-primary project-link-page">
+                            <i class="fas fa-external-link-alt"></i> Voir le projet
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section Processus de travail -->
+            <div class="work-process">
+                <h2 class="section-title">Mon Processus de Travail</h2>
+                <div class="process-steps">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <h3>Analyse des besoins</h3>
+                        <p>Compréhension approfondie des objectifs et exigences du projet.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <h3>Conception</h3>
+                        <p>Création de maquettes et architecture technique du projet.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <h3>Développement</h3>
+                        <p>Implémentation des fonctionnalités avec les meilleures pratiques.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">4</div>
+                        <h3>Tests & Déploiement</h3>
+                        <p>Assurance qualité et mise en production du projet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="projects-cta">
+                <h2>Vous avez un projet en tête ?</h2>
+                <p>N'hésitez pas à me contacter pour discuter de votre projet web. Je serais ravie de vous aider à le concrétiser.</p>
+                <a href="contact.html" class="btn btn-primary">Discuter de mon projet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="index.html" class="logo">Victoire<span>Rose</span></a>
+                    <p>Développeuse Web Full Stack passionnée par la création de solutions numériques innovantes.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="project.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> victoiretogbe43@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +229 01 50 21 14 70</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Cotonou, Bénin</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Victoire Rose TOGBE - Développeuse Web. Tous droits réservés.</p>
+                <p>Portfolio créé avec HTML, CSS et JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script>
+        // Filtrage des projets
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const projectCards = document.querySelectorAll('.project-card-page');
+            
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Retirer la classe active de tous les boutons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Ajouter la classe active au bouton cliqué
+                    this.classList.add('active');
+                    
+                    const filterValue = this.getAttribute('data-filter');
+                    
+                    projectCards.forEach(card => {
+                        if (filterValue === 'all' || card.getAttribute('data-category').includes(filterValue)) {
+                            card.style.display = 'block';
+                            setTimeout(() => {
+                                card.style.opacity = '1';
+                                card.style.transform = 'translateY(0)';
+                            }, 10);
+                        } else {
+                            card.style.opacity = '0';
+                            card.style.transform = 'translateY(20px)';
+                            setTimeout(() => {
+                                card.style.display = 'none';
+                            }, 300);
+                        }
+                    });
+                });
+            });
+            
+            // Animation d'apparition des projets
+            projectCards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                
+                setTimeout(() => {
+                    card.style.opacity = '1';
+                    card.style.transform = 'translateY(0)';
+                }, index * 100);
+            });
+        });
+    </script>
+</body>
+</html>

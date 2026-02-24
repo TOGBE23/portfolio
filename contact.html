@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Victoire Rose TOGBE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo">Victoire<span>Rose</span></a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="nav-btn">Accueil</a></li>
+                <li><a href="about.html" class="nav-btn">À propos</a></li>
+                <li><a href="skills.html" class="nav-btn">Compétences</a></li>
+                <li><a href="project.html" class="nav-btn">Projets</a></li>
+                <li><a href="contact.html" class="nav-btn active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Section Contact -->
+    <section class="contact-page">
+        <div class="container">
+            <h1 class="page-title">Contactez-moi</h1>
+            <p class="page-subtitle">N'hésitez pas à me contacter pour discuter de votre projet ou pour toute question.</p>
+
+            <div class="contact-container-page">
+                <div class="contact-info-page">
+                    <h2>Travaillons ensemble !</h2>
+                    <p>Je suis toujours ouvert à de nouvelles opportunités et collaborations. Que vous ayez un projet en tête ou simplement une question, n'hésitez pas à me contacter.</p>
+                    
+                    <div class="contact-details-page">
+                        <div class="contact-item-page">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Email</h3>
+                                <p>victoiretogbe43@gmail.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item-page">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Téléphone</h3>
+                                <p>+229 01 50 21 14 70</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item-page">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Localisation</h3>
+                                <p>Cotonou, Bénin</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item-page">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Disponibilité</h3>
+                                <p>Lundi - Vendredi: 9h - 18h</p>
+                                <p>Réponse sous 24h</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-contact">
+                        <h3>Suivez-moi</h3>
+                        <div class="social-links-page">
+                            <a href="#" class="social-link-page">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="#" class="social-link-page">
+                                <i class="fab fa-linkedin"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            
+                           
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-page">
+                    <h2>Envoyez-moi un message</h2>
+                    <form id="contactFormPage">
+                        <div class="form-group-page">
+                            <label for="name">Nom complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group-page">
+                            <label for="email">Adresse email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group-page">
+                            <label for="subject">Sujet *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group-page">
+                            <label for="projectType">Type de projet</label>
+                            <select id="projectType" name="projectType">
+                                <option value="">Sélectionnez une option</option>
+                                <option value="website">Site Web</option>
+                                <option value="ecommerce">E-commerce</option>
+                                <option value="application">Application Web</option>
+                                <option value="maintenance">Maintenance</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group-page">
+                            <label for="budget">Budget estimé</label>
+                            <select id="budget" name="budget">
+                                <option value="">Sélectionnez une option</option>
+                                <option value="500-1000">500€ - 1000€</option>
+                                <option value="1000-3000">1000€ - 3000€</option>
+                                <option value="3000-5000">3000€ - 5000€</option>
+                                <option value="5000+">5000€+</option>
+                                <option value="notsure">Pas encore déterminé</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group-page">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+                        
+                        <div class="form-group-page">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="newsletter" checked>
+                                <span>Je souhaite recevoir des mises à jour et des nouvelles</span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <i class="fas fa-paper-plane"></i> Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="faq-section">
+                <h2 class="section-title">Questions Fréquentes</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quels sont vos tarifs ?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Mes tarifs varient selon la complexité et la durée du projet. Je propose des devis personnalisés après analyse de vos besoins. Contactez-moi pour discuter de votre projet et obtenir une estimation.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Quel est votre délai de réponse ?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Je m'efforce de répondre à tous les messages dans les 24 heures ouvrables. Pour les demandes urgentes, indiquez-le dans votre message et je ferai de mon mieux pour vous répondre plus rapidement.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Proposez-vous des révisions après livraison ?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oui, je propose généralement une période de révision de 30 jours après la livraison pour effectuer des ajustements mineurs. Les modifications majeures peuvent faire l'objet d'un devis supplémentaire.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <span>Travaillez-vous à distance ?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Oui, je travaille principalement à distance et peux collaborer efficacement avec des clients du monde entier. J'utilise des outils modernes de communication et de gestion de projet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="contact-cta">
+                <h2>Prêt à commencer votre projet ?</h2>
+                <p>Prenez rendez-vous pour une consultation gratuite de 30 minutes afin de discuter de votre projet en détail.</p>
+                <a href="#" class="btn btn-secondary">
+                    <i class="fas fa-calendar-alt"></i> Prendre rendez-vous
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="index.html" class="logo">Victoire<span>Rose</span></a>
+                    <p>Développeuse Web Full Stack passionnée par la création de solutions numériques innovantes.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="skills.html">Compétences</a></li>
+                        <li><a href="project.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-envelope"></i> victoiretogbe43@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +229 01 50 21 14 70</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Cotonou, Bénin</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Victoire Rose TOGBE - Développeuse Web. Tous droits réservés.</p>
+                <p>Portfolio créé avec HTML, CSS et JavaScript</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script>
+        // FAQ Accordion
+        document.addEventListener('DOMContentLoaded', function() {
+            const faqQuestions = document.querySelectorAll('.faq-question');
+            
+            faqQuestions.forEach(question => {
+                question.addEventListener('click', function() {
+                    const answer = this.nextElementSibling;
+                    const icon = this.querySelector('i');
+                    
+                    // Fermer toutes les autres réponses
+                    document.querySelectorAll('.faq-answer').forEach(item => {
+                        if (item !== answer && item.style.maxHeight) {
+                            item.style.maxHeight = null;
+                            item.previousElementSibling.querySelector('i').classList.remove('fa-chevron-up');
+                            item.previousElementSibling.querySelector('i').classList.add('fa-chevron-down');
+                        }
+                    });
+                    
+                    // Ouvrir/fermer la réponse actuelle
+                    if (answer.style.maxHeight) {
+                        answer.style.maxHeight = null;
+                        icon.classList.remove('fa-chevron-up');
+                        icon.classList.add('fa-chevron-down');
+                    } else {
+                        answer.style.maxHeight = answer.scrollHeight + 'px';
+                        icon.classList.remove('fa-chevron-down');
+                        icon.classList.add('fa-chevron-up');
+                    }
+                });
+            });
+            
+            // Initialiser les réponses fermées
+            document.querySelectorAll('.faq-answer').forEach(answer => {
+                answer.style.maxHeight = null;
+            });
+            
+            // Formulaire de contact
+            const contactForm = document.getElementById('contactFormPage');
+            contactForm.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                // Récupérer les valeurs du formulaire
+                const formData = new FormData(this);
+                const formValues = Object.fromEntries(formData);
+                
+                // Simulation d'envoi
+                console.log('Formulaire envoyé:', formValues);
+                
+                // Message de succès
+                alert('Merci pour votre message ! Je vous répondrai dans les plus brefs délais.');
+                
+                // Réinitialiser le formulaire
+                this.reset();
+            });
+        });
+    </script>
+</body>
+</html>

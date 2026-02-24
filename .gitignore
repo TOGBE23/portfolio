@@ -1,0 +1,10 @@
+﻿# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Dossiers de build (si tu en as)
+/dist
+/build
